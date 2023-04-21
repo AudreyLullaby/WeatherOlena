@@ -2,13 +2,21 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
   max-width: 700px;
   min-width: 700px;
-  margin: 0 auto;
+  margin: auto;
+  padding: 20px;
 }
 
 h1 {
   color: #7c7c7c;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+}
+h2 {
+  color: #7c7c7c;
+  font-size: 20px;
+  font-weight: 200;
   line-height: 28px;
   margin: 0;
 }
@@ -27,13 +35,6 @@ li {
   list-style: none;
 }
 
-.weather-app {
-  color: #8291a7;
-  padding: 15px;
-  margin: 20px auto;
-  max-width: 600px;
-}
-
 .weather-icon {
   height: 64px;
   width: 64px;
@@ -41,9 +42,10 @@ li {
 }
 
 .temperature {
-  color: rgb(33, 33, 33);
-  font-size: 64px;
-  font-weight: 400;
+  color: rgb(85, 84, 84);
+
+  font-size: 80px;
+  font-weight: 500;
   line-height: 1;
 }
 
@@ -53,7 +55,8 @@ li {
 }
 
 .search-form {
-  margin-bottom: 20px;
+  padding: 15px;
+  margin-bottom: 0;
 }
 
 .container {
@@ -80,10 +83,16 @@ p {
 }
 .date {
   text-align: 60px;
+  font-size: 40px;
 }
 
 .container text-center {
   font-size: 26px;
   opacity: 0.9;
   font-weight: bold;
+}
+.openSource {
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px;
 }
