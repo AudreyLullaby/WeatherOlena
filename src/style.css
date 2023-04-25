@@ -1,3 +1,7 @@
+.weather-app {
+  margin: 60px, auto;
+  padding: 20px;
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
   max-width: 700px;
